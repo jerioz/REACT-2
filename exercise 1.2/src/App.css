@@ -27,6 +27,7 @@ a:hover {
 }
 .home {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
   }
 .home_title {
     font-size: 24px;
@@ -36,6 +37,16 @@ a:hover {
     list-style: none;
     display: flex;
     justify-content:space-around;
-    font-size: 16px ;
+    font-size: 20px ;
 }
+.photo {
+    display: flex;
+    justify-content: space-around;
+  }  
+  .home_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
 
